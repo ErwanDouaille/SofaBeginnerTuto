@@ -29,11 +29,11 @@ sudo ./qt-unified-linux-x64-3.0.2-online.run
 
 Click skip, next, next ... And you should have this installation directory /opt/qt. Otherwise, check than you run it as root (sudo)
 
-![screen1](../images/screen1.png)
+![screen1](images/screen1.png)
 
 Click next, next ... and you should face this page. 
 
-![screen2](../images/screen2.png)
+![screen2](images/screen2.png)
 
 Please select the GCC version of the latest stable qt release. In this case QT 5.10 (~1,2 gb). You can select multiples compilers but for sofa it's useless and the download size will be bigger.
 
@@ -63,33 +63,33 @@ git clone -b master https://github.com/sofa-framework/sofa ./sofaSrc
 
 When the download is finished run QtCreator. If you have multiples qtcreator installation, please ensure it's the QtCreator community.
 
-![screen3](../images/screen3.png)
+![screen3](images/screen3.png)
 
 Click on "Open project"
 
-![screen4](../images/screen4.png)
+![screen4](images/screen4.png)
 
 Go in SOFA directory, then sofaSrc (sofa sources) and select CMakeLists.txt
 
-![screen5](../images/screen5.png)
+![screen5](images/screen5.png)
 
 Click on configure project. If you are curious the defaut build kit should be the gcc/qt version we downloaded from the qt installer.
 
-![screen6](../images/screen6.png)
+![screen6](images/screen6.png)
 
 The cmake from QtCreator will run by itself. Then you will be able to compile sofa. Now it's cofee time (~20 mins depending of your machine)
 
-![screen7](../images/screen7.png)
+![screen7](images/screen7.png)
 
 The compilation step should works withtout any problems. If you encounter some issue, please go on gitter for helps : gitter.im/sofa-framework/sofa
 You can also use the sofa forum (maybe longer than using gitter) : https://www.sofa-framework.org/community/forum/
 
 If everything works well you will be able to run it and discover sofa :D
 Do not forget to select runSofa. Which is the main runnable of Sofa
-![screen8](../images/screen8.png)
-![screen8](../images/screen9.png)
+![screen8](images/screen8.png)
+![screen8](images/screen9.png)
 
 Few explanations, the sofa source dir is sofaSrc. With the compilation, a new directory may be created. Something like build-sofaSrcXXXXXXXXXXXXXXXXXXXXXX. This is the build directory. If you explore it, you will find sofa's runnable inside the bin directory.
 
-![screen10](../images/screen10.png)
+![screen10](images/screen10.png)
 
